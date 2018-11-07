@@ -6,8 +6,8 @@
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #64a19d;
-    border: 1px solid #64a19d;
+    color: #3F4354;
+    border: 1px solid #3F4354;
   }
   
   #mainNav .navbar-toggler:focus {
@@ -15,7 +15,7 @@
   }
   
   #mainNav .navbar-brand {
-    color: #161616;
+    color: #3F4354;
     font-weight: 700;
     padding: .9rem 0;
   }
@@ -51,7 +51,7 @@
       color: rgba(255, 255, 255, 0.5);
     }
     #mainNav .nav-link:hover {
-      color: #64a19d;
+      color: #3F4354;
     }
     #mainNav .nav-link:active {
       color: white;
@@ -60,23 +60,23 @@
       background-color: #fff;
     }
     #mainNav.navbar-shrink .navbar-brand {
-      color: #161616;
+      color: #3F4354;
     }
     #mainNav.navbar-shrink .nav-link {
-      color: #161616;
+      color: #3F4354;
       padding: 1.5rem 1.5rem 1.25rem;
       border-bottom: 0.25rem solid transparent;
     }
     #mainNav.navbar-shrink .nav-link:hover {
-      color: #64a19d;
+      color: #008080;
     }
     #mainNav.navbar-shrink .nav-link:active {
-      color: #467370;
+      color: #008080;
     }
     #mainNav.navbar-shrink .nav-link.active {
-      color: #64a19d;
+      color: #008080;
       outline: none;
-      border-bottom: 0.25rem solid #64a19d;
+      border-bottom: 0.25rem solid #008080;
     }
   }
   
@@ -154,20 +154,20 @@
   }
 
   .btn-primary {
-    background-color: #64a19d;
+  background-color: #008080;
   }
   
   .btn-primary:hover {
-    background-color: #4f837f;
+    background-color: #008080;
   }
   
   .btn-primary:focus {
-    background-color: #4f837f;
+    background-color: #008080;
     color: white;
   }
   
   .btn-primary:active {
-    background-color: #467370 !important;
+    background-color: #536872 !important;
   }
   
   .about-section {
@@ -182,6 +182,8 @@
   
   .projects-section {
     padding: 10rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(95%,rgba(255, 255, 255, 0.9)), to( rgba(22, 22, 22, 0.5))), url("../img/bg-signup.jpg");
+    background: linear-gradient( bottom, rgba(255, 255, 255, 0.9) 100%, rgba(255, 255, 255, 0.9) 99%, #161616 0%), url("../img/bg-signup.jpg") !important;
   }
   
   .projects-section .featured-text {
@@ -191,7 +193,7 @@
   @media (min-width: 992px) {
     .projects-section .featured-text {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #64a19d;
+      border-left: 0.5rem solid #008080;
     }
   }
   
@@ -205,7 +207,7 @@
       padding: 5rem;
     }
     .projects-section .project-text hr {
-      border-color: #64a19d;
+      border-color: #008080;
       border-width: .25rem;
       width: 30%;
     }
@@ -213,31 +215,23 @@
   
   .contact-section {
     padding: 10rem 0;
-    background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.5)), to(rgba(22, 22, 22, 0.1))), url("../img/bg-signup.jpg");
-    background: linear-gradient(to top, #161616 100%, rgba(22, 22, 22, 0.5) 75%,rgba(22, 22, 22, 0.1) 0%), url("../img/bg-signup.jpg");
+    background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(96%, rgba(22, 22, 22, 0.5)), to( rgba(22, 22, 22, 0.5))), url("../img/bg-signup.jpg");
+    background: linear-gradient( top, #161616 100%, #161616 95%, rgba(22, 22, 22, 0.5) 0%), url("../img/bg-signup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-  }
-
-
-  .signup-section .form-inline input{
     -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-    padding: 1.25rem 2rem;
-    height: auto;
-    font-family: 'Varela Round';
-    font-size: 80%;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    border: 0;
   }
+
+
+
   
   
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #008080;
   }
   
   .contact-section .card h4 {
@@ -248,7 +242,7 @@
   }
   
   .contact-section .card hr {
-    border-color: #64a19d;
+    border-color: #008080;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -268,7 +262,7 @@
   }
   
   .contact-section .social a:hover {
-    color:#64a19d;
+    color:#008080;
   }
   
   .contact-section .social a:active {
@@ -281,12 +275,12 @@
   }
   
   a {
-    color: #64a19d;
+    color: #008080;
   }
   
   a:focus, a:hover {
     text-decoration: none;
-    color: #3c6360;
+    color: #536872;
   }
   
   .bg-black {
@@ -294,11 +288,11 @@
   }
   
   .bg-primary {
-    background-color: #64a19d !important;
+    background-color: #008080 !important;
   }
   
   .text-primary {
-    color: #64a19d !important;
+    color: #008080 !important;
   }
   
   footer {
