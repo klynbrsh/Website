@@ -145,72 +145,9 @@
     height: 60px;
   }
   
-  .contactbtn {
-    margin-left: 125px;
-  }
-
-  .workbtn {
-    margin-right: 125px;
-  }
-
-  .btn-primary {
-    background-color: #64a19d;
-  }
+ 
   
-  .btn-primary:hover {
-    background-color: #4f837f;
-  }
-  
-  .btn-primary:focus {
-    background-color: #4f837f;
-    color: white;
-  }
-  
-  .btn-primary:active {
-    background-color: #467370 !important;
-  }
-  
-  .about-section {
-    padding-top: 10rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-  }
-  
-  .about-section p {
-    margin-bottom: 5rem;
-  }
-  
-  .projects-section {
-    padding: 10rem 0;
-  }
-  
-  .projects-section .featured-text {
-    padding: 2rem;
-  }
-  
-  @media (min-width: 992px) {
-    .projects-section .featured-text {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #64a19d;
-    }
-  }
-  
-  .projects-section .project-text {
-    padding: 3rem;
-    font-size: 90%;
-  }
-  
-  @media (min-width: 992px) {
-    .projects-section .project-text {
-      padding: 5rem;
-    }
-    .projects-section .project-text hr {
-      border-color: #64a19d;
-      border-width: .25rem;
-      width: 30%;
-    }
-  }
-  
+ 
   .contact-section {
     padding: 10rem 0 50px;
     background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.5)), to(rgba(22, 22, 22, 0.1))), url("../img/bg-signup.jpg");
@@ -262,6 +199,7 @@
   }
   
   body {
+    background-color: aqua;
     font-family: 'Nunito';
     letter-spacing: 0.0625em;
   }
@@ -290,3 +228,57 @@
   footer {
     padding: 5rem 0;
   }
+
+  article {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  nav a {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+  
+  a {
+      color: #323663;
+      transition: color 0.25s;
+  }
+    
+  a:hover {
+      color: #3F4354;
+      font-weight: bold;
+  }
+  
+    
+  .center p {
+      text-align: center;
+  }
+  
+    
+  nav a,
+  nav h2 {
+      display: block;
+      position: fixed;
+      text-decoration: none;
+  }
+
+  .sidemenu:after {
+      content: "header";
+      height: 100%;
+      position: fixed;
+      padding: 25px;
+      width: 200px;
+      background-color: #FADADD;
+  }
+  .Content {
+    background: yellow;
+    margin-top: 40px;
+    margin-left: 290px;
+    padding: 30px 30px;
+    height: 100%;
+}
+
+.content-container {
+    background: lightskyblue;
+    margin: 0 auto;
+    max-width: 850px;
+}
