@@ -199,7 +199,7 @@
   }
   
   body {
-    background-color: aqua;
+   /* background-color: aqua;*/
     font-family: 'Nunito';
     letter-spacing: 0.0625em;
   }
@@ -261,8 +261,7 @@
       text-decoration: none;
   }
 
-  .sidemenu:after {
-      content: "header";
+  .sidemenu {
       height: 100%;
       position: fixed;
       padding: 25px;
@@ -270,7 +269,7 @@
       background-color: #FADADD;
   }
   .Content {
-    background: yellow;
+   /* background: yellow; */
     margin-top: 40px;
     margin-left: 290px;
     padding: 30px 30px;
@@ -278,7 +277,13 @@
 }
 
 .content-container {
-    background: lightskyblue;
+   /* background: lightskyblue;*/
     margin: 0 auto;
     max-width: 850px;
+}
+
+.aside:after {
+  content: "header";
+  height: 100%;
+
 }
