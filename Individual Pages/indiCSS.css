@@ -291,9 +291,16 @@
 .Mobile {
   height: 400px;
   width: auto;
-  padding-left: 60px;
 }
 
 .Mobile-section {
   margin-top: 25px;
+}
+
+.Dashboard {
+  padding-right: 80px;
+}
+
+small {
+  font-size: 25px;
 }
