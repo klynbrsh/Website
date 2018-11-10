@@ -144,10 +144,7 @@
     width: 200px;
     height: 60px;
   }
-  
- 
-  
- 
+
   .contact-section {
     padding: 10rem 0 50px;
     background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.5)), to(rgba(22, 22, 22, 0.1))), url("../img/bg-signup.jpg");
@@ -226,7 +223,14 @@
   }
   
   footer {
+    position: relative;
+    z-index: 20;
     padding: 5rem 0;
+  }
+
+  #footer{
+    position: relative;
+    z-index: 20;
   }
 
   article {
@@ -253,39 +257,41 @@
       text-align: center;
   }
   
-    
-  /*nav a,
-  nav h2 {
-      display: block;
-      position: fixed;
-      text-decoration: none;
-  }*/
 
-  .sidemenu {
-      height: 100%;
-      position: fixed;
-      padding: 25px;
-      width: 200px;
-      background-color: #FADADD;
-  }
-  .Content {
-   /* background: yellow; */
-    margin-top: 40px;
-    margin-left: 290px;
-    padding: 30px 30px;
+.sidemenu {
     height: 100%;
+    position: fixed;
+    top: 1000px;
+    left: 70px;
+    padding: 20px;
+    width: 200px;
+    background-color: #FADADD;
+    z-index: 10;
+}
+
+.sidemenu-stick {
+  display: none;
+  height: 100%;
+    position: fixed;
+    top: 50px;
+    left: 70px;
+    padding: 20px;
+    width: 200px;
+    background-color: #FADADD;
+}
+
+.Content {
+  /* background: yellow; */
+  margin-top: 40px;
+  margin-left: 290px;
+  padding: 30px 30px;
+  height: 100%;
 }
 
 .content-container {
    /* background: lightskyblue;*/
     margin: 0 auto;
     max-width: 850px;
-}
-
-.aside:after {
-  content: "header";
-  height: 100%;
-
 }
 
 .Mobile {

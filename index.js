@@ -41,5 +41,21 @@
 // Carousal
     $('.carousel').carousel()
   
+    //Sticky Menu collapse
+    var navbarCollapse = function() {
+      console.log(window.scrollY)
+      if (window.scrollY > 450) {
+        $("#sidemenu").fadeIn()
+        // $("#sidemenu").addClass("sidemenu-stick");
+      } else {
+        $("#sidemenu").fadeOut()
+        // $("#sidemenu").removeClass("sidemenu-stick");
+      }
+    };
+     // Collapse now if page is not at top
+    navbarCollapse();
+    // Collapse the navbar when page is scrolled
+    $(window).scroll(navbarCollapse);
+
   })(jQuery); // End of use strict
   
