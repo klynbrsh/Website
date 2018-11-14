@@ -172,10 +172,15 @@
   
   .about-section {
     padding-top: 10rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(65%, #161616B3), to(#1616164D));
+    background: linear-gradient(to bottom, #161616 0%, #161616B3 65%, #1616164D 100%), url("img/ipad.png");
+    background
+   
   }
-  
+  .about-section h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
   .about-section p {
     margin-bottom: 5rem;
   }
