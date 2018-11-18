@@ -287,13 +287,13 @@
 .Content {
   /* background: yellow; */
   margin-top: 40px;
-  margin-left: 290px;
+  margin-left: 150px;
   padding: 30px 30px;
   height: 100%;
 }
 
 .content-container {
-   /* background: lightskyblue;*/
+   /* background: lightskyblue; */
     margin: 0 auto;
     max-width: 850px;
 }
@@ -313,4 +313,7 @@
 
 small {
   font-size: 25px;
+}
+.carousel-control-prev {
+  color: red;
 }
