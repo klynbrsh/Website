@@ -68,15 +68,15 @@
       border-bottom: 0.25rem solid transparent;
     }
     #mainNav.navbar-shrink .nav-link:hover {
-      color: #008080;
+      color: #007fab;
     }
     #mainNav.navbar-shrink .nav-link:active {
-      color: #008080;
+      color: #007fab;
     }
     #mainNav.navbar-shrink .nav-link.active {
-      color: #008080;
+      color: #007fab;
       outline: none;
-      border-bottom: 0.25rem solid #008080;
+      border-bottom: 0.25rem solid #007fab;
     }
   }
   
@@ -154,15 +154,15 @@
   }
 
   .btn-primary {
-  background-color: #008080;
+  background-color: #007fab;
   }
   
   .btn-primary:hover {
-    background-color: #008080;
+    background-color: #007fab;
   }
   
   .btn-primary:focus {
-    background-color: #008080;
+    background-color: #007fab;
     color: white;
   }
   
@@ -198,7 +198,7 @@
   @media (min-width: 992px) {
     .projects-section .featured-text {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #008080;
+      border-left: 0.5rem solid #007fab;
     }
   }
   
@@ -212,7 +212,7 @@
       padding: 5rem;
     }
     .projects-section .project-text hr {
-      border-color: #008080;
+      border-color: #007fab;
       border-width: .25rem;
       width: 30%;
     }
@@ -233,7 +233,7 @@
   
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #008080;
+    border-bottom: 0.25rem solid #007fab;
   }
   
   .contact-section .card h4 {
@@ -244,7 +244,7 @@
   }
   
   .contact-section .card hr {
-    border-color: #008080;
+    border-color: #007fab;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -264,7 +264,7 @@
   }
   
   .contact-section .social a:hover {
-    color:#008080;
+    color:#007fab;
   }
   
   .contact-section .social a:active {
@@ -277,7 +277,7 @@
   }
   
   a {
-    color: #008080;
+    color: #007fab;
   }
   
   a:focus, a:hover {
@@ -290,11 +290,11 @@
   }
   
   .bg-primary {
-    background-color: #008080 !important;
+    background-color: #007fab !important;
   }
   
   .text-primary {
-    color: #008080 !important;
+    color: #007fab !important;
   }
   
   footer {

@@ -1,21 +1,24 @@
 #mainNav {
   min-height: 56px;
-  background-color: #FFEEF5;
+  background-color: #007fab;
+}
+
+#mainNav a {
+  color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #3F4354;
-  border: 1px solid #3F4354;
+  color: white;
+  border: 1px solid white;
 }
-
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 
 #mainNav .navbar-brand {
-  color: #3F4354;
+  color: white;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -51,7 +54,7 @@
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: #3F4354;
+    color: #007fab;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -68,18 +71,22 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #008080;
+    color: #007fab;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #008080;
+    color: #007fab;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #008080;
+    color: #007fab;
     outline: none;
-    border-bottom: 0.25rem solid #008080;
+    border-bottom: 0.25rem solid #007fab;
   }
 }
-  
+@media (max-width: 1117px) {
+  #sidemeny {
+  display: none !important;
+  }
+}
   .masthead {
     position: relative;
     width: 100%;
@@ -133,7 +140,7 @@
   }
   .doubleimg img{
     height: auto;
-    width: 350px;
+    width: 300px;
   }
 
   .btn {
@@ -161,7 +168,7 @@
   
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #007fab;
   }
   
   .contact-section .card h4 {
@@ -172,7 +179,7 @@
   }
   
   .contact-section .card hr {
-    border-color: #64a19d;
+    border-color: #007fab;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -192,7 +199,7 @@
   }
   
   .contact-section .social a:hover {
-    color:#64a19d;
+    color:#007fab;
   }
   
   .contact-section .social a:active {
@@ -206,7 +213,7 @@
   }
   
   a {
-    color: #64a19d;
+    color: #007fab;
   }
   
   a:focus, a:hover {
@@ -219,11 +226,11 @@
   }
   
   .bg-primary {
-    background-color: #64a19d !important;
+    background-color: #007fab !important;
   }
   
   .text-primary {
-    color: #64a19d !important;
+    color: #007fab !important;
   }
   
   footer {
@@ -269,8 +276,9 @@
     left: 70px;
     padding: 20px;
     width: 200px;
-    background-color: #FADADD;
+    background-color: #007fab;
     z-index: 10;
+    opacity:0;
 }
 
 .sidemenu-stick {
@@ -281,13 +289,18 @@
     left: 70px;
     padding: 20px;
     width: 200px;
-    background-color: #FADADD;
+    background-color: #007fab;
 }
 
+.sidemenu h2 {
+  color: white;
+}
+.sidemenu a{
+  color:white;
+}
 .Content {
   /* background: yellow; */
   margin-top: 40px;
-  margin-left: 150px;
   padding: 30px 30px;
   padding-top: 2.5px;
   height: 100%;
@@ -296,7 +309,7 @@
 .content-container {
    /* background: lightskyblue; */
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 920px;
 }
 
 .Mobile {
@@ -317,4 +330,37 @@ small {
 }
 .carousel-control-prev {
   color: red;
+}
+
+h1 {
+  color: #007fab;
+}
+
+article{
+  padding-top: 25px;
+}
+
+@media (min-width: 1290px) {
+  #sidemenu {
+  opacity:1 !important;
+  }
+  .Content {
+    /* background: yellow; */
+    margin-top: 40px;
+    margin-left: 150px;
+    padding: 30px 30px;
+    padding-top: 2.5px;
+    height: 100%;
+  }
+}
+
+.p_table{
+  width:100%;
+  max-width: 920px;
+  text-align: center;
+}
+.block {
+  width:450px;
+  max-width:450px;
+  display:inline-block;
 }
