@@ -376,3 +376,6 @@ article{
   display: inline-block;
   margin: 25px;
 }
+.carousel-control-prev-icon, .carousel-control-prev {
+  box-shadow: 2px 2px 2px solid black;
+}
