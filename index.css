@@ -220,8 +220,8 @@
   
   .contact-section {
     padding: 10rem 0;
-    background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(96%, rgba(22, 22, 22, 0.5)), to( rgba(22, 22, 22, 0.5)));
-    background: linear-gradient( top, #161616 100%, #161616 95%, rgba(22, 22, 22, 0.5) 0%);
+    background: -webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(96%, rgba(22, 22, 22, 0.5)), to( rgba(22, 22, 22, 0.5))), url("../img/bg-signup.jpg");
+    background: linear-gradient( top, #161616 100%, #161616 95%, rgba(22, 22, 22, 0.5) 0%), url("../img/bg-signup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
