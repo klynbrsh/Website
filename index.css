@@ -1,6 +1,6 @@
  #mainNav {
     min-height: 56px;
-    background-color: #FFEEF5;
+    background-color: white;
   }
   
   #mainNav .navbar-toggler {
@@ -30,7 +30,16 @@
     outline: none;
     background-color: transparent;
   }
-  
+
+.workbtn
+  {
+    margin: 10px;
+  }
+.contactbtn
+  {
+    margin: 10px;
+  }
+
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 0;
@@ -130,6 +139,13 @@
       max-width: 30rem;
       font-size: 1.25rem;
     }
+    .contactbtn {
+      margin-left: 125px;
+    }
+  
+    .workbtn {
+      margin-right: 125px;
+    }
   }
   
   .btn {
@@ -145,13 +161,7 @@
     height: 60px;
   }
   
-  .contactbtn {
-    margin-left: 125px;
-  }
-
-  .workbtn {
-    margin-right: 125px;
-  }
+  
 
   .btn-primary {
   background-color: #007fab;
