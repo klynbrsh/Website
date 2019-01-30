@@ -1,0 +1,121 @@
+.masthead
+{
+    height: 75vh;
+}
+
+#Header .header
+{
+    width: 350px;
+}
+
+#SWOT .SWOT
+{
+    width: 350px;
+}
+
+#Survey .survey, .survey1, .survey2, .survey3, .survey4, .survey5, .survey6, .survey7, .survey8
+{
+    width: 400px;
+}
+
+#SWOT .Notes
+{
+    width: 350px;
+}
+
+#Profiles .female
+{
+    width: 350px;
+}
+
+#Profiles .male
+{
+    width: 350px;
+}
+
+#Problem .problem
+{
+    width: 400px;
+}
+
+#feature .benefit
+{
+    width: 400px;
+}
+
+#Journey .journey 
+{
+    width: 400px;
+}
+
+#Story .story
+{
+    width: 375px;
+}
+
+#deliver .deliver
+{
+    width: 350px;
+}
+
+@media (min-width: 992px)
+{
+    #Header .header
+    {
+        width: 850px;
+    }
+    
+    #Survey .survey
+    {
+        width: 450px;
+    }
+
+    #SWOT .SWOT
+    {
+        width: 750px;
+    }
+    
+    #SWOT .Notes
+    {
+        width: 550px;
+    }
+    
+    #Profiles .female
+    {
+        width: 450px;
+    }
+    
+    #Profiles .male
+    {
+        width: 450px;
+    }
+    
+    #Problem .problem
+    {
+        width: 600px;
+    }
+    
+    #feature .benefit
+    {
+        width: 800px;
+    }
+    
+    #Journey .journey 
+    {
+        width: 800px;
+    }
+    
+    #Story .story
+    {
+        width: 800px;
+    }
+    
+    #deliver .deliver
+    {
+        width: 750px;
+    }  
+
+    .p_table image{
+        width: 450px;
+    }
+}

@@ -1,32 +1,28 @@
 #mainNav {
   min-height: 56px;
-  background-color: #007fab;
-}
-
-#mainNav a {
-  color: white;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: white;
-  border: 1px solid white;
+  color: #3F4354;
+  border: 1px solid #3F4354;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 
 #mainNav .navbar-brand {
-  color: white;
+  color: #3F4354;
   font-weight: 700;
   padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#FFEEF5, 80%);
+  /* color: fade(#FFEEF5, 80%); */
   outline: none;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -356,11 +352,11 @@ article{
 
 .p_table{
   width:100%;
-  max-width: 920px;
+  /* max-width: 920px; */
   text-align: center;
 }
 .block {
-  width:450px;
+  /* width:450px; */
   max-width:450px;
   display:inline-block;
 }

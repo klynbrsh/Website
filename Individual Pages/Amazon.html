@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="indiCSS.css" rel="stylesheet">
+    <link href="amazoncss.css" rel="stylesheet">
 
     <style>
         .masthead {
@@ -37,7 +38,7 @@
         }
        .p_table img {
           padding: 5px;
-          width:450px;
+          /* width:450px; */
           height: auto;
         }
         .tablep {
@@ -70,6 +71,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="../index.html#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="https://uxuifyi.wordpress.com/">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="../index.html#Contact">Contact</a>
@@ -110,7 +114,7 @@
   <section class="Content">
     <div class="content-container">
       <article id="Header">
-          <img src="img/amazon/amazonheader.png" style="width: 850px;">
+          <img class="header" src="img/amazon/amazonheader.png">
           <br>
           <h1>Overview</h1>
       <p>
@@ -127,32 +131,32 @@
         <div><h4>Survey Results</h4>
           <div class="survey-img">
            <div class="p_table">
-             <div class="block">
-                  <img src="img/amazon/surveyresults.png">
+             <div class="block" id="Survey">
+                  <img class="survey" src="img/amazon/surveyresults.png">
                 </div>
                 <div class="block">
-                  <img src="img/amazon/surveyresults2.png">
+                  <img class="survey1" src="img/amazon/surveyresults2.png">
                 </div>
                 <div class="block">
-                    <img src="img/amazon/surveyresults3.png">
+                    <img class="survey2" src="img/amazon/surveyresults3.png">
                   </div>
                   <div class="block">
-                    <img src="img/amazon/surveyresults4.png">
+                    <img class="survey3" src="img/amazon/surveyresults4.png">
                   </div>
                   <div class="block">
-                      <img src="img/amazon/surveyresults5.png">
+                      <img class="survey4" src="img/amazon/surveyresults5.png">
                     </div> 
                     <div class="block">
-                      <img src="img/amazon/surveyresults6.png">
+                      <img class="survey5" src="img/amazon/surveyresults6.png">
                     </div>
                     <div class="block">
-                      <img src="img/amazon/surveyresults7.png">
+                      <img class="survey6" src="img/amazon/surveyresults7.png">
                     </div>
                     <div class="block">
-                      <img src="img/amazon/surveyresults8.png">
+                      <img class="survey7" src="img/amazon/surveyresults8.png">
                     </div>
                     <div class="block">
-                    <img src="img/amazon/surveyresults9.png">
+                    <img class="survey8" src="img/amazon/surveyresults9.png">
                   </div>
                 </div>
                     <div class="tablep">
@@ -162,17 +166,17 @@
           </div>
           </div>
           <br><br><br><br>
-        <div class="Swot"><h4>SWOT Analysis</h4>
+        <div class="Swot" id="SWOT"><h4>SWOT Analysis</h4>
           <br>
           <table>
             <tr>
               <td colspan="2">
-                <img src="img/amazon/SWOT.png" style="width:750px;">
+                <img class="SWOT" src="img/amazon/SWOT.png">
               </td>
             </tr>
             <tr style="width:750px">
               <td>
-                <img src="img/amazon/Notes.png" style="width: 550px;">
+                <img class="Notes" src="img/amazon/Notes.png">
               </td>
               <td>
                 <div class="tablep">
@@ -231,25 +235,25 @@
           </p>
           <br><br>
           </div>
-          <div class="doubleimg"><h4>Character Profiles</h4> <br>
+          <div class="doubleimg" id="Profiles"><h4>Character Profiles</h4> <br>
           <p> To match our interviews/survey results, we created two character profiles (Chris Kroese and Jessica Flores) before continuing with Chris Kroese who we believed more accurately fit the user we were targeting.</p>
-            <img src="img/amazon/Amazon_Persona_Female.png" style="width: 450px;"> <img src="img/amazon/Amazon_Persona_Male.png"style="width: 450px;">
+            <img class="female" src="img/amazon/Amazon_Persona_Female.png"> <img class="male" src="img/amazon/Amazon_Persona_Male.png">
           </div>
           <br><br>
-          <div>
+          <div id="Problem">
             <br>
             <p>
               Our research and chosen target user, led us to the following problem statement:
             </p>
-            <img src="img/amazon/ProblemstatementAmazon.png" style="width: 600px">
+            <img class="problem" src="img/amazon/ProblemstatementAmazon.png">
           </div>
           <br><br>
-          <div><h4>Feature Benefit Matrix</h4>
+          <div id="feature"><h4>Feature Benefit Matrix</h4>
             <br>
             <p>
               Once we had a clear goal for the end product of our chosen problem, we created the feature benefit matrix to determine the hierarchy of which features should be included in the redesign based of the time constraints as well as how beneficial the features are to the users and the company.
             </p>
-            <img src="img/amazon/Benefit MatrixAmazon.png" style="width: 800px; height:auto;">
+            <img class="benefit" src="img/amazon/Benefit MatrixAmazon.png">
           </div>
       </article>
   <hr id="Develop">
@@ -259,15 +263,15 @@
           <p> Having defined the problem, we moved into developing the solution. </p><br>
           <p>The Process:</p>
           <br>
-          <div><h4>Journey Map</h4>
+          <div id="Journey"><h4>Journey Map</h4>
             <p>We extracted steps from a user journey in which our persona would need a tool to help him decide the best product to purchase and used those steps to build a user flow. Then we translated each step in this flow into sketches which we incorporated into our storyboard.</p>
               <br>
-              <img src="img/amazon/Chris Kroese Journey Map.png" style="width: 800px; height: auto;">
+              <img class="journey" src="img/amazon/Chris Kroese Journey Map.png">
           </div>
-          <div><h4>Storyboard</h4>
+          <div id="Story"><h4>Storyboard</h4>
             <p>Based off of the User Journey steps we created the following storyboard:</p>
               <br>
-              <img src="img/amazon/Amazon_Story-board.png" style="width: 800px; height: auto;"> 
+              <img class="story" src="img/amazon/Amazon_Story-board.png"> 
             </div>
             <br><br><br>
           <!-- <div><h4>User Flow</h4>
@@ -456,8 +460,8 @@
       <article>
           <h1>Deliverables</h1>
           <p>Our final proposed solution:</p>
-          <div>
-            <img src="img/amazon/amazonheader.png" style="width: 750px"><br>
+          <div id="deliver">
+            <img class="deliver" src="img/amazon/amazonheader.png"><br>
             <a href="https://invis.io/4JOOR0GHQ7D" target="blank">Mobile InVision Product</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <a href="https://invis.io/UKOOR0FN59Y" target="blank">Tablet InVision Product</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <a href="https://invis.io/8GOOR56HX9J" target="blank">Desktop InVision Product</a>
