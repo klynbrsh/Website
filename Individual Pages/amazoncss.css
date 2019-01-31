@@ -57,7 +57,10 @@
 {
     width: 350px;
 }
-
+.tablep
+{
+    float:left;
+}
 @media (min-width: 992px)
 {
     #Header .header
