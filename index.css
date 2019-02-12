@@ -183,7 +183,7 @@
   .about-section {
     padding-top: 10rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(65%, #161616B3), to(#1616164D));
-    background: linear-gradient(to bottom, #161616 0%, #161616B3 65%, #1616164D 100%), url("img/ipad.png");
+    background: linear-gradient(to bottom, #161616 0%, #161616B3 65%, #1616164D 100%), url("img/ipad.jpf");
     background
    
   }
