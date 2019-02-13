@@ -96,7 +96,7 @@
     min-height: 35rem;
     padding: 15rem 0;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("img/bg-masthead_fixed.jpf");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("img/bg-masthead_fixed.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -183,7 +183,7 @@
   .about-section {
     padding-top: 10rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(65%, #161616B3), to(#1616164D));
-    background: linear-gradient(to bottom, #161616 0%, #161616B3 65%, #1616164D 100%), url("img/ipad.jpf");
+    background: linear-gradient(to bottom, #161616 0%, #161616B3 65%, #1616164D 100%), url("img/ipad.png");
     background
    
   }
