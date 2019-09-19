@@ -44,10 +44,11 @@
     //Sticky Menu collapse
     var navbarCollapse = function() {
       console.log(window.scrollY)
-      if (window.scrollY > 450) {
+      if (window.scrollY > 650) {
         $("#sidemenu").fadeIn()
         // $("#sidemenu").addClass("sidemenu-stick");
-      } else {
+      }
+      else {
         $("#sidemenu").fadeOut()
         // $("#sidemenu").removeClass("sidemenu-stick");
       }
