@@ -1,6 +1,6 @@
   #mainNav {
     min-height: 45px;
-    background-color: black;
+    background-color: white !important;
   }
   
   #mainNav .navbar-toggler {
@@ -18,6 +18,7 @@
   .container {
       margin-right: 100px;
       height: 10px;
+      margin-left:100px;
   }
   .name {
       border-top: 10px solid rgb(191, 191,191);
@@ -142,9 +143,11 @@
   width: 30%;
   padding: 2.5%;
   border:none;
+  font-size:16pt;
 }
 .card1 p {
   font: helvetica;
+  font-size:16px;
 }
 .card1 h5 {
   font: helvetica;
@@ -157,17 +160,20 @@
 
 .influence{
   font-weight: bold;
-  color:white;
+  color:black;
 }
 .influence_name {
-    border-top: 10px solid rgb(102,199,255);
-    font-size: 18pt;
-    font: Helvetica;
-    color:white;
+  border-top: 10px solid rgb(102,199,255);
+  font-size: 14pt;
+  font: Helvetica;
+  font-weight:none;
+  width:85%;
+  color:black;
 }
 .container2 {
-  margin-left: 125px;
+  margin-left: 15px;
   margin-top: 25px;
+  background:rgb(40,50,63);
 }
 .container2 p{
   font-size:16px;
@@ -180,10 +186,9 @@
   width: 25%;
   padding: 2.5%;
   border:none;
+  margin-left:40px;
 }
-.card1 p {
-  font-size:16px;
-}
+
 .card2{
   width: 30%;
   padding: 2.5%;
@@ -209,10 +214,211 @@
 }
 .jumbo{
   padding-top:0px;
+  background-color:white;
 }
 html { 
   height: 100%; 
 }
 body {
   min-height:100%;
+}
+.topmenu{
+	display:flex;
+}
+.secondmenu{
+	display:flex;
+	margin-left:700px;
+}
+.about1{
+	background:rgb(40,50,63);
+}
+.experience{
+	background-color:rgb(40,50,63);
+	height:525px;
+	margin-bottom:0px;
+	padding-bottom:10px;
+	margin-top:20px;
+}
+.exptext{
+  margin-left:100px;
+  font-size:5pt !important;
+}
+.exptext p{
+  font-size:12pt;
+}
+.para h5{
+	font-weight:bold;
+	color:rgb(102,199,255);
+}
+.para p{
+	color:white;
+}
+.mine{
+  vertical-align:baseline;
+}
+.title h2{
+	color:white;
+}
+.proj{
+	margin-bottom:0px;
+}
+
+.featured{
+	display:flex;
+}
+.card-link{
+	margin-left:70px;
+}
+.proj1{
+  margin-left:70px;
+}
+.softwarebox{
+	width:50%;
+  display:inline-block;
+}
+
+.software{
+	display:inline-block;
+	padding-top:50px;
+  width:32%;
+  padding-left:0px;
+  margin-left:0px;
+}
+.software ul{
+	color:rgb(102,199,255);
+	font-weight:bold;
+	font-size:16px;
+}
+.skilljumbo{
+	background:rgb(40,50,63);
+	padding-bottom:1.5%;
+}
+.softwarebox2{
+	width:49%;
+	display:inline-block;
+	margin-top:1.5%;
+}
+.research{
+	display:inline-block;
+	width:45%;
+}
+.research h5{
+	color:rgb(102,199,255);
+	font-weight:bold;
+	font-size:18px;
+}
+.research h6{
+	padding-top:15px;
+	font-weight:bold;
+	color:white;
+	font-size:14px;
+}
+.skills{
+	font-size:11pt;
+	font-weight:none;
+	margin-top:0px;
+	color:white;
+}
+.design{
+	padding-top:40px;
+}
+.design h6{
+	padding-top:15px;
+	font-weight:bold;
+	color:white;
+	font-size:14px;
+}
+.empty{
+	color:rgb(40,50,63) !important;
+	padding-top:10px;
+	font-weight:bold;
+}
+.skill{
+  font-weight:none;
+	margin-top:0px;
+  color:white;
+  vertical-align:center;
+}
+.act{
+  padding-left:100px;
+}
+.process{
+	display:inline-block;
+	width:45%;
+}
+.process ul{
+	color:rgb(102,199,255);
+	font-weight:bold;
+	font-size:14px;
+}
+.other{
+	background:white !important;
+	padding-bottom:0px;
+}
+.involve{
+  width:95%;
+  background-color:white;
+}
+.involve h4{
+	color:black;
+}
+.involve p{
+	font-size:14pt;
+	font-weight:none;
+	width:85%;
+	color:black;
+}
+.volun{
+  width: 25%;
+  padding: 2.5%;
+  border:none;
+}
+.activities{
+	display:flex;
+}
+.head_img{
+	width:270px;
+	height:auto;
+}
+.bottomdiv{
+	background-color:rgb(40,50,63);
+	display:flex;
+	height:500px;
+}
+.thanks{
+	width:45%;
+	margin-top:225px;
+	margin-left:150px;
+}
+.thank{
+	color:white;
+}
+.thanks p{
+	font-size:16pt;
+	font-weight:none;
+	width:75%;
+}
+.foot{
+	height:95%;
+	background:white;
+	width:45%;
+	margin-top:20px;
+	margin-right:50px;
+}
+.contact h5{
+	font-size:20pt;
+}
+.contact p{
+	color:black;
+	margin:2px;
+	font-size:16px;
+}
+.online{
+	font-size:20pt;
+	margin-top:50px;
+	border-top:2px solid rgb(191,191,191);
+}
+.para-link{
+	color:black;
+	margin:2px;
 }

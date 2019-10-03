@@ -318,3 +318,177 @@ h6{
 body{
   height:100%;
 }
+.overviewtext{
+	width:100%;
+}
+.overviewtext h1{
+	padding-left:25px;
+	padding-top:100px;
+	font-weight:bold;
+	color: white;
+}
+.overviewtext p {
+	padding-left:25px;
+	color:white;
+}
+#mainNav{
+  background-color:white !important;
+}
+.container{
+  margin-left: 100px;
+}
+.topmenu{
+  display:flex;
+}
+.secondmenu{
+  display:flex;
+  margin-left:700px;
+}
+.overviewlist{
+  background-color:rgb(40,50,63);
+}
+.mainimg {
+	float:right;
+	width:45%;
+	background-color:rgb(40,50,63);
+	padding-top:200px;
+}
+.mainimg img{
+	width:100%;
+	display:inline-block;
+}
+.asidemenu{
+	z-index:-10 !important;
+}
+#Overviews, #Researchs, #Designs, #Delivers, #Finals{
+	color:rgb(102,199,255);
+}
+#Ideations, #Users, #Flows, #Papers, #Lows, #Highs, #links{
+	padding-left:15%;
+	font-size:15px;
+}
+#footers{
+  font-weight:bold;
+}
+.research img{
+	height:auto;
+}
+.persona {
+	width:43%;
+	padding-bottom: 10px;
+	padding-top:78px;
+}
+.journeymap{
+	width:55%;
+}
+.userflow{
+	height:275px;
+	width:95%;
+}
+.paper{
+	height:auto;
+	width:33%;
+}
+.design p{
+  margin-top:10px;
+}
+.deliverableimg{
+	height:auto;
+	width:85%;
+	padding-left:8%;
+}
+.finallinks a{
+  padding-right:15% !important;
+}
+.protolink{
+	height:auto;
+	width:33%;
+	padding-bottom:10px;
+	padding-right:15%;
+}
+.finallinks{
+  padding-left:15%;
+}
+#footer{
+	z-index:100;
+}
+.about{
+	background-color:rgb(40,50,63);
+	display:flex;
+	height:600px;
+}
+.title{
+	width:45%;
+	margin-top:225px;
+	margin-left:150px;
+}
+.title p{
+	font-size:16pt;
+	font-weight:none;
+	width:75%;
+}
+.foot{
+	height:95%;
+	background:white;
+	width:45%;
+	margin-top:20px;
+	margin-right:50px;
+}
+.name{
+  font-size:20pt;
+  border-top: 2px solid rgb(191,191,191);
+  margin-top:5%;
+}
+.para{
+	color:black !important;
+	margin:2px;
+}
+.foots{
+	font-size:20pt;
+	margin-top:80px;
+	border-top: 2px solid rgb(191,191,191);
+}
+.responsibilities{
+  display:inline-block;
+  width:45%;
+  margin: 2.5px;
+}
+.responsibilities ul{
+  color:rgb(102,199,255) !important;
+  font-weight:bold;
+  font-size:16px;
+}
+.scope{
+  display:inline-block;
+  width:45%;
+  margin:2.5px;
+}
+.scope ul {
+  color:rgb(102,199,255);
+  font-weight:bold;
+  font-size:16px;
+} 
+.masthead {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("img/amazon/amazon.png");
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.p_table img {
+  padding: 5px;
+  /* width:450px; */
+  height: auto;
+}
+.tablep {
+  background-color: #567da666;
+  border: 1px solid black;
+  padding: 2.5px;
+}
+
